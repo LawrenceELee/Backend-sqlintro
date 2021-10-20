@@ -1,6 +1,8 @@
 (1) Using the Customer Table, select the CustomerName, ContactName, and Country.  Use ORDER BY to order by Country.  
 Use LIMIT and OFFSET to get entries 11 through 20. Paste your SQL statement below. 
 
+
+
 (2) Select all columns from the Customer table where the ContactName starts with A.  Paste your SQL statement below.
 
 (3) Select all columns from the OrderDetails table where the ProductID is 51 and the quantity is greater than 10.
