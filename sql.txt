@@ -31,6 +31,18 @@ WHERE ProductID = 51 and Quantity > 10
 (4) Insert 3 rows into the Products table.  Note that you will have to specify a valid SupplierID and CategoryID, 
 corresponding to rows from the Supplier and Category tables.  Paste your three SQL statements below.
 
+INSERT INTO Products (ProductName, SupplierID, CategoryID, Unit, Price)
+VALUES ("insert1", 1, 1, "1 box x 1 bag", 100)
+;
+
+INSERT INTO Products
+VALUES (NULL, "insert2", 2, 2, "2 boxes x 2 bags", 200)
+;
+
+INSERT INTO Products
+VALUES (NULL, "insert3", 3, 3, "3 boxes x 3 bags", 300)
+;
+
 (5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
 
 (6) Delete all rows of the Products Table where the price is less than 7.00. Paste your SQL statement below.
